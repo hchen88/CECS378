@@ -9,7 +9,7 @@
 #key in the form of a list
 keyList = []
 keyString = ""
-checker = None
+
 """
 encrypt function definition 
 parameters : msg- msg to be encrypted as a string
@@ -40,6 +40,7 @@ while(len(keyString) != 26 ):
     if(len(keyString) != 26):
         print("Invalid Key is not 26 char in length! Retry")
 
+#calls function to encrypt 
 encrypt(msg, keyString)
 
 
